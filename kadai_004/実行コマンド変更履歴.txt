@@ -1,5 +1,12 @@
-PS C:\Users\亮太> cd D:\サムライスクール用\git_challenge
-PS D:\サムライスクール用\git_challenge> git log --oneline
-b02c798 (HEAD -> main) 日本語訳を追記
-6e9afa5 hello_world.txtを追加
-PS D:\サムライスクール用\git_challenge> 
+1.git_challengeフォルダ作成　＝　PS D:\> mkdir git_challenge
+2.ローカルリポジトリ作成　＝　PS D:\> cd git_challenge　➔　PS D:\git_challenge> git init
+3.hello_world.txt 作成　＝　右クリックから新規作成　➔　テキストドキュメント『hello_world.txt』
+4.hello_world.txt インデックス登録　＝　テキスト1行目「hello, world!」➔　PS D:\git_challenge> git add hello_world.txt
+5.hello_world.txt コミット　＝　PS D:\git_challenge> git commit -m "hello_world.txtを追加"
+6.hello_world.txt 1行追記・インデックス登録　＝　テキスト2行目「こんにちは、世界！」（1行目入力後に保存済）➔　PS D:\git_challenge> git add hello_world.txt
+7.hello_world.txt コミット　＝　PS D:\git_challenge> git add hello_world.txt　➔　PS D:\git_challenge> git commit -m "日本語訳を追記"
+
+gitコミット履歴
+PS D:\git_challenge> git log --oneline 
+e6707ee (HEAD -> main) 日本語訳を追記
+7ca417a hello_world.txtを追加
