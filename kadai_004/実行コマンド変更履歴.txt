@@ -1,0 +1,5 @@
+PS C:\Users\亮太> cd D:\サムライスクール用\git_challenge
+PS D:\サムライスクール用\git_challenge> git log --oneline
+b02c798 (HEAD -> main) 日本語訳を追記
+6e9afa5 hello_world.txtを追加
+PS D:\サムライスクール用\git_challenge> 
